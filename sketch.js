@@ -43,6 +43,6 @@ function keyPressed(){
     if (keyCode === UP_ARROW ) {
       Matter.Body.applyForce(paperObject.body,paperObject.Body.Position, {x: 130,y: -145})
     }
-  }
+  }  
 
 
